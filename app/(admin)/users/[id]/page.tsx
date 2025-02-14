@@ -3,7 +3,7 @@
 import { useParams } from 'next/navigation'
 import React from 'react'
 
-export default function DetailUser() {
+export default function DetailUserPage() {
   const params = useParams()
   const { id } = params
 
